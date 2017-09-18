@@ -97,12 +97,10 @@
 		92D9CA3C1F68B34700995092 /* iCate */ = {
 			isa = PBXGroup;
 			children = (
-				92D9CA3D1F68B34700995092 /* AppDelegate.swift */,
-				92D9CA3F1F68B34700995092 /* ViewController.swift */,
-				92D9CA411F68B34700995092 /* Main.storyboard */,
-				92D9CA441F68B34700995092 /* Assets.xcassets */,
-				92D9CA461F68B34700995092 /* LaunchScreen.storyboard */,
-				92D9CA491F68B34700995092 /* Info.plist */,
+				92D9CA6E1F6F5C9500995092 /* HelperFiles */,
+				92D9CA6D1F6F5C8900995092 /* View */,
+				92D9CA6C1F6F5C8000995092 /* ViewController */,
+				92D9CA6B1F6F5C6C00995092 /* Model */,
 			);
 			path = iCate;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				92D9CA5F1F68B34700995092 /* Info.plist */,
 			);
 			path = iCateUITests;
+			sourceTree = "<group>";
+		};
+		92D9CA6B1F6F5C6C00995092 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		92D9CA6C1F6F5C8000995092 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92D9CA3F1F68B34700995092 /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		92D9CA6D1F6F5C8900995092 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		92D9CA6E1F6F5C9500995092 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92D9CA3D1F68B34700995092 /* AppDelegate.swift */,
+				92D9CA411F68B34700995092 /* Main.storyboard */,
+				92D9CA441F68B34700995092 /* Assets.xcassets */,
+				92D9CA461F68B34700995092 /* LaunchScreen.storyboard */,
+				92D9CA491F68B34700995092 /* Info.plist */,
+			);
+			name = HelperFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
