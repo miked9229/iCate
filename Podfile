@@ -8,6 +8,9 @@ target 'iCate' do
 
   # Pods for iCate
 
+  pod ‘Firebase/Core’
+
+
   
 
   target 'iCateTests' do
